@@ -415,8 +415,11 @@
       </div>
     </div>
 
-    <!-- Formulaire : remplacer l'action par votre endpoint Formspree (https://formspree.io) -->
-    <form id="form" action="https://formspree.io/f/VOTRE_ID" method="POST">
+    <!-- Formulaire envoyé par e-mail via FormSubmit (https://formsubmit.co) -->
+    <form id="form" action="https://formsubmit.co/maxencedieng2@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Nouvelle demande de travaux - site">
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <div class="row">
         <div><label for="nom">Nom</label><input id="nom" name="nom" required autocomplete="name"></div>
         <div><label for="tel">Téléphone</label><input id="tel" name="telephone" type="tel" required autocomplete="tel"></div>
